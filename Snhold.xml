@@ -16,12 +16,7 @@ zenbot/alice/alice.xml
      
 59 lines (44 sloc)  2.47 KB
 <context>
-
-    <sample>
-        <item value="Кто такая Алиса?"/>
-        <item value="Что такое бот"/>
-    </sample>
-
+  
     <input pattern="* (привет*|здравствуй*) *">
         <output if="full($UserName)">
             <item value="Привет, $UserName! Рада снова видеть тебя!"/>
