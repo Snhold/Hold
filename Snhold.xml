@@ -1,0 +1,5 @@
+<context>
+  <input pattern="* ïðèâåò* *">
+    <output value="Íó ïðâèåò"/>
+  </input>
+</context>
